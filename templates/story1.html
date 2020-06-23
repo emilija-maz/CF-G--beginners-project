@@ -13,23 +13,40 @@
    <style>
         body {
             margin: 0px;
+            /*background-image: url("images/bg.jpg");*/
+            background-color: #00FF00;
         }
 
         .my-container {
-            border: 0px;
-            height: 100%;
+            border: 10px red;
+            height: 50%;
             column-gap: 0px;
             align-self: center;
+          
+        
+
+
         }
 
+    /*    .a { display: block; }*/
+
         .my-row {
-            border: 0px solid white;
+            border: 4px solid blue;
             height: 100%;
+            width: 100%;
+              background-color: white;
         }
 
         .my-col {
-            border: 3px dotted blue;
+        	justify-content: center;
+       
         }
+
+        #main {
+
+  display: flex;
+  justify-content: center;
+}
     </style>
 
 <!-- <nav>
@@ -43,20 +60,41 @@
 
 </nav> -->
 <body>
-Some stuff
 
 
 
+<div class="container my-container">
+	<div class="row my-row">
+		<div col-12>
+			<h1>Walter Benjamin wrote:</h1>
+  			<p>If sleep is the apogee of physical relaxation, boredom is the apogee of mental relaxation. Boredom is the dream bird that hatches the egg of experience. A rustling in the leaves drives him away. His nesting places - the activities that are intimately associated with boredom - are extinct in the cities and are declining in the country as well.</p>
+  			<img  class="img-fluid" src="images/Walter.jpg">
+			
+
+		</div>
+		
+	</div>
+	<div class="row my-row img-fluid  bg-primary text-white">
+		<div col-12>
+			<h2> A second row of the container </h2>
+			<br/>
+			<p>HMMMM why is it not the same width? </p>
+			
+		</div>
+		
+
+	</div>
+</div>
 
 
-<div class="container my-container mx-0">
+<!-- <div class="container my-container mx-0">
 	<div class = "row my-row mx-0">
 		<div class="col px-0">
-		<!-- 	row 1 col 1 -->
+
 			<img src="images/varna1.jpg" class="img-fluid">
 		</div>
 		<div class="col px-0">
-	<!-- 		row 1 col 2 -->
+
 			<img src="images/varna2.jpg" class="img-fluid">
 		</div>
 
@@ -64,17 +102,16 @@ Some stuff
 	<div class = "row my-row align-self-center mx-0" >
 
 		<div class="col px-0">
-	<!-- 		row 2 col 1 -->
+
 			<a href="about.html">
 			<img src="images/varna3.jpg" class="img-fluid">
 		</div>
 		<div class="col px-0">
-<!-- 			row 2 col 2
- -->			<a href="morestuff.html">
+			<a href="morestuff.html">
 			<img src="images/varna4.jpg" class="img-fluid">
 		</div>
 	</div>
-
+ -->
 </div>
 </body>
 </html>

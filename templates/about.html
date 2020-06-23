@@ -1,5 +1,5 @@
 
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html>
 <head>
 	<title>ABOUT</title>
@@ -18,11 +18,114 @@
 		<a href="morestuff.html">MORE stuff</a>
 
 	</div>
+
+	<style>
+
+		 body {
+            margin: 0px;
+        }
+
+        .my-container {
+            border: 0px;
+            height: 100%;
+            column-gap: 0px;
+            align-self: center;
+        }
+
+        .my-row {
+            border: 0px solid white;
+            height: 100%;
+        }
+
+        .my-col {
+            border: 3px dotted blue;
+        }
+
+		.my-img {
+
+  			border-radius: 50%;
+  			overflow: hidden;
+  			width: 50%;
+  			object-fit: cover;
+  			object-position: center;
+  			position: center;
+  			text-align: center;
+			}
+
+
+
+		h2.headertekst {
+  			text-align: center;
+			}
+
+		.lizt{
+
+			padding: 10%;
+
+		}
+	
+
+
+	</style>
 </nav>
 <body>
+	<div class="container">
 
-This is about page
+		<div class="row my-row">
+			<div class="col my-col">
+				<img src="images/portrait1.jpg" class="my-img mx-auto d-block">
+				<h2 class="headertekst">a beautiful dog</h2>
+				
 
- <img src='images/1.jpg' class=" img-circle center-block resize">
+
+
+				<div class="lizt">
+							<ul>
+				  <li>education</li>
+				  <li>life goals</li>
+				  <li>motto</li>
+				</ul>  
+				</div>
+
+		
+
+			</div>
+			<div class="col my-col">
+				<img src="images/portrait2.jpg" class="my-img mx-auto d-block">
+				
+
+					<h2 id="my-h">a beautiful dog</h2>
+
+
+
+				<div class="lizt">
+							<ul>
+				  <li>education</li>
+				  <li>life goals</li>
+				  <li>motto</li>
+				</ul>  
+				</div>
+
+
+
+			</div>
+		</div>
+
+		<div class="row">			
+			<div class="col-6">
+				
+
+			</div>
+			<div class="col-6">
+				
+
+			</div>
+		</div>
+
+		
+	</div>
+
+
+
 </body>
 </html>
